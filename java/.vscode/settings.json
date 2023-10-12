@@ -1,0 +1,28 @@
+{
+    "java.compile.nullAnalysis.mode": "automatic",
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "java.format.settings.url": ".vscode/java-formatter.xml",
+    "java.configuration.runtimes": [
+        {
+            "name": "JavaSE-1.8",
+            "path": "C:/Program Files (x86)/Eclipse Adoptium/jdk-8.0.382.5-hotspot",
+        },
+        {
+            "name": "JavaSE-11",
+            "path": "C:/Program Files/Eclipse Adoptium/jdk-11.0.18.10-hotspot",
+        },
+        {
+            "name": "JavaSE-17",
+            "path": "C:/Program Files/Eclipse Adoptium/jdk-17.0.6.10-hotspot",
+        },
+        {
+            "name": "JavaSE-18",
+            "path": "C:/Program Files/Eclipse Adoptium/jdk-18.0.2.101-hotspot",
+        },
+        {
+            "name": "JavaSE-20",
+            "path": "C:/Program Files/Eclipse Adoptium/jdk-21.0.0.35-hotspot",
+            "default": true
+        }
+    ]
+}
