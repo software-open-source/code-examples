@@ -6,16 +6,27 @@
     "configurations": [
         {
             "type": "java",
-            "name": "Current File",
-            "request": "launch",
-            "mainClass": "${file}"
-        },
-        {
-            "type": "java",
             "name": "Application",
             "request": "launch",
             "mainClass": "org.software.open.source.Application",
             "projectName": "maven-java-application"
+        },
+        {
+            "type": "java",
+            "name": "localhost Crud Spring Boot Demo Application",
+            "request": "launch",
+            "mainClass": "org.software.open.source.Application",
+            "projectName": "crud-spring-boot-demo",
+            "env": {
+                "server-port": 8080,
+                "swagger-ui-path": "/swagger-ui.html",
+                "swagger-enabled": true,
+                "application-name": "crud-spring-boot-demo",
+                "profile": "localhost",
+                "log-startup-info": false,
+                "logging-level-web": "ERROR",
+                "web-base-path": "/manage"
+            }
         }
     ]
 }

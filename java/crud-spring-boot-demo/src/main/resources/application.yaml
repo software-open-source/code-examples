@@ -1,0 +1,32 @@
+server:
+  port: ${server-port:8080}
+# swagger-ui custom path
+springdoc:
+  swagger-ui:
+    path: ${swagger-ui-path:/swagger-ui.html}
+    enabled: ${swagger-enabled:false}
+  api-docs:
+    enabled: ${swagger-enabled:false}
+  show-actuator: ${swagger-enabled:false}
+
+management:
+  server:
+    port: ${server-port}
+  endpoints:
+    web:
+      base-path: ${web-base-path:/manage}
+
+spring:
+  application:
+    name: ${application-name}
+  profiles:
+    active: ${profile}
+  main:
+    log-startup-info: ${log-startup-info:true}
+  jackson:
+    time-zone: UTC
+
+# ERROR, WARN, INFO, DEBUG, TRACE
+logging:
+  level:
+    web: ${logging-level-web:INFO}
