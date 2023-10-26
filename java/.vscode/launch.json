@@ -9,6 +9,20 @@
             "name": "Application",
             "request": "launch",
             "mainClass": "org.software.open.source.Application",
+            "projectName": "functional-lnterfaces-and-lambda-expressions"
+        },
+        {
+            "type": "java",
+            "name": "maven-java-application",
+            "request": "launch",
+            "mainClass": "org.software.open.source.Application",
+            "projectName": "maven-java-application"
+        },
+        {
+            "type": "java",
+            "name": "functional-lnterfaces-and-lambda-expressions",
+            "request": "launch",
+            "mainClass": "org.software.open.source.Application",
             "projectName": "maven-java-application"
         },
         {

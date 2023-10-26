@@ -3,10 +3,10 @@
 
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.software.open.source</groupId>
-  <artifactId>maven-java-application</artifactId>
+  <artifactId>functional-lnterfaces</artifactId>
   <packaging>jar</packaging>
   <version>1.0.0</version>
-  <name>maven-java-application</name>
+  <name>functional-lnterfaces-and-lambda-expressions</name>
   <url>https://github.com/software-open-source</url>
 
   <properties>
