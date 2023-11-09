@@ -20,7 +20,7 @@
             "path": "C:/Program Files/Eclipse Adoptium/jdk-18.0.2.101-hotspot",
         },
         {
-            "name": "JavaSE-20",
+            "name": "JavaSE-21",
             "path": "C:/Program Files/Eclipse Adoptium/jdk-21.0.0.35-hotspot",
             "default": true
         }
